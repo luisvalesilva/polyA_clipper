@@ -22,7 +22,7 @@ Currently **`polyA_clipper`** does **not**:
 
 ## How to run
 
-To run **`polyA_clipper`** your `example.fastq`:
+To run **`polyA_clipper`** with your `example.fastq`:
  
 1. Clone the repo and go inside
 ```shell
@@ -36,13 +36,8 @@ cd polyA_clipper/
 python polyA_clipper.py -f /path/to/example.fastq
 ```
 
-Print help string:
-```shell
-python polyA_clipper.py
+Call `python polyA_clipper.py` or `python polyA_clipper.py -h` to get help.
 
-# Or
-python polyA_clipper.py -h
-```
 ## License
 
 This project is licensed under the terms of the MIT license. See [LICENSE](LICENSE) file for details.
